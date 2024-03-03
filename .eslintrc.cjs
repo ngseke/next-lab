@@ -7,6 +7,7 @@ module.exports = {
     'standard-with-typescript',
     'plugin:@next/next/recommended',
     'next/core-web-vitals',
+    'plugin:tailwindcss/recommended',
   ],
   overrides: [
     {
@@ -40,6 +41,7 @@ module.exports = {
       generics: 'ignore',
     }],
     '@typescript-eslint/explicit-function-return-type': ['off'],
+    '@typescript-eslint/no-misused-promises': ['off'],
     'react/jsx-indent': ['warn', 2, {
       checkAttributes: true,
       indentLogicalExpressions: true,
