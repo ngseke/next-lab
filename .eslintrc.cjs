@@ -42,6 +42,7 @@ module.exports = {
     }],
     '@typescript-eslint/explicit-function-return-type': ['off'],
     '@typescript-eslint/no-misused-promises': ['off'],
+    '@typescript-eslint/strict-boolean-expressions': ['off'],
     'react/jsx-indent': ['warn', 2, {
       checkAttributes: true,
       indentLogicalExpressions: true,
