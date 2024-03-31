@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export default async function Home () {
-  const links = ['/dnd', '/tiptap']
+  const links = ['/dnd', '/tiptap', '/hook1']
 
   return (
     <main className="container mx-auto flex min-h-screen w-full flex-col justify-center gap-6 font-mono">
